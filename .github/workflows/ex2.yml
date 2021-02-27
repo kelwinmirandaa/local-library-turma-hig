@@ -17,6 +17,6 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v2.2.2
       with:
-        name: ${{env.ARTIFACT.VAR}}
+        name: ${{env.ARTIFACT_VAR}}
         path: .
         if-no-files-found: error
